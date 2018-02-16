@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "../Css/bootstrap.min.css";
 import "../Css/font-awesome.css";
 import './index.css';
 
@@ -10,7 +11,9 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          <button type="button" className="btn btn-default btn-lg">
+            <span className="glyphicon glyphicon-star" aria-hidden="true"></span> Star
+          </button>
         </p>
       </div>
     );
